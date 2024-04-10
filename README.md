@@ -67,3 +67,6 @@ python
 
 
 ![image](https://github.com/RaulEfdz/-TextExtractor/assets/68834789/6b96fecc-ef38-4ccc-8194-a9a9313d1cd8)
+
+
+ELCODIGO ESTA EN: ## TextExtractor.py
