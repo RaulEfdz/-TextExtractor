@@ -48,4 +48,31 @@
     python TextExtractor.py
     ```
 
-- Sigue las instrucciones en pantalla para cargar y procesar el archivo deseado.
+
+
+
+# Instrucciones para Clonar el Notebook en Google Colab
+
+¡Hola a todos!
+
+Para acceder al notebook y comenzar a trabajar en él, sigue estos pasos simples:
+
+1. Ve a la carpeta del proyecto TextExtractor\colab en  donde se encuentra el archivo del notebook.
+
+2. Descarga el archivo `.ipynb` del notebook a tu computadora local.
+
+3. Abre Google Colab en tu navegador web.
+
+4. En Google Colab, haz clic en "Archivo" en la barra de menú superior.
+
+5. Selecciona "Subir notebook..." en el menú desplegable.
+
+6. Busca el archivo `.ipynb` que descargaste anteriormente y selecciónalo para cargarlo en Google Colab.
+
+7. ¡Listo! Ahora puedes editar y ejecutar el notebook en tu propio entorno de Google Colab sin afectar el original.
+
+Si tienes alguna pregunta o necesitas ayuda, no dudes en preguntar.
+
+¡Disfruta colaborando en el proyecto!
+
+Saludos,
