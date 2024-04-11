@@ -1,5 +1,8 @@
+# TextExtractor.py - Guía de Instalación y Uso
 
 ## Instrucciones para Clonar el Notebook en Google Colab
+
+# 1- Google Colab
 
 ¡Hola a todos! 🚀
 
@@ -18,9 +21,8 @@ Para acceder al notebook y comenzar a trabajar en él, sigue estos pasos simples
 
 Espero que estas instrucciones te ayuden a comenzar con tu proyecto. Si necesitas más ayuda, no dudes en preguntar. ¡Buena suerte! 💡
 
----------------------------------------------------------------------------------------------
-
-# TextExtractor.py - Guía de Instalación y Uso
+--------------------------------------------------------------------------------------------
+# 2- LOCAL
 
 ## Requisitos Previos
 - Python 3.6 o superior.
