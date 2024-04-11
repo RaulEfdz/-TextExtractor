@@ -15,7 +15,7 @@ Para acceder al notebook y comenzar a trabajar en él, sigue estos pasos simples
 9. Selecciona tu imagen, imágenes o PDF con imágenes dentro.
 10. Espera a que termine de extraer el texto.
 
-Espero que estas instrucciones te ayuden a comenzar con tu proyecto. Si necesitas más ayuda, no dudes en preguntar. ¡Buena suerte! 💡
+Espero que estas instrucciones te ayuden a comenzar con tu proyecto.
 
 ---
 
@@ -36,6 +36,4 @@ Para ejecutar este código en Google Colab, sigue los siguientes pasos:
 
 3. Ejecuta ambas celdas en orden.
 4. Después de ejecutar las celdas, podrás utilizar las funciones del archivo `colab/TextExtractor.py` para cargar archivos de imagen o PDF y extraer texto de ellos.
-
-¡Listo! Ahora puedes utilizar el código en Google Colab para procesar tus archivos y extraer texto de ellos.
 
