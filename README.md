@@ -1,35 +1,51 @@
-# TextExtractor: Herramienta de Extracción de Texto de Imágenes y PDFs
+# TextExtractor.py - Guía de Instalación y Uso
 
-**TextExtractor** es una herramienta eficaz diseñada para extraer texto de documentos en formatos de imagen y PDF. Utilizando una potente combinación de **Tesseract-OCR** para el reconocimiento óptico de caracteres y **OpenCV** para el procesamiento de imágenes, **TextExtractor** facilita la obtención de texto de documentos complejos. Además, integra **pdf2image** para convertir documentos PDF en imágenes procesables, mejorando así la accesibilidad y manipulación del contenido textual.
+## Requisitos Previos
+- Python 3.6 o superior.
+- pip (el gestor de paquetes de Python).
 
-## 🌟 Características
+## Instalación de Dependencias
 
-- Extrae texto de **archivos en formatos de imagen y PDF**.
-- **Aplica técnicas de pre-procesamiento de imágenes** para mejorar la precisión del OCR.
-- **Soporta la conversión de páginas PDF a imágenes** para su procesamiento.
+------------------------------------
+- pip install -r requirements.txt -
+------------------------------------
 
-## 🚀 Cómo Utilizar
+### Tesseract-OCR y Poppler-Utils
 
-### 📌 Instalación de Dependencias
+- **Windows**:
+    - Descarga e instala **Tesseract** desde [la página oficial de GitHub](https://github.com/tesseract-ocr/tesseract/wiki).
+    - Descarga e instala **Poppler** para Windows desde [aquí](http://blog.alivate.com.au/poppler-windows/).
+    - Añade las rutas de Tesseract y Poppler a la variable de entorno `PATH`.
 
-Instala las dependencias necesarias ejecutando los siguientes comandos:
+- **macOS**:
+    ```bash
+    brew install tesseract
+    brew install poppler
+    ```
 
+- **Linux (Debian/Ubuntu)**:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install tesseract-ocr
+    sudo apt-get install poppler-utils
+    ```
 
-!pip install pytesseract pdf2image
-!apt-get install tesseract-ocr poppler-utils -y
-Nota: Estos comandos son adecuados para ambientes como Google Colab.
+## Configuración del Script
 
-##📝 Implementación del Código
-Importa las bibliotecas requeridas al inicio de tu script.
-Copia las funciones extract_text_from_image y process_file en tu script para habilitar la extracción de texto.
-🖥 Uso
-Sube el archivo (imagen o PDF con imagenes ) que deseas procesar.
-Llama a process_file con la ruta del archivo subido para iniciar la extracción de texto.
-Ejemplo de uso para un archivo llamado "documento.pdf":
-python
+- Si Tesseract no está en tu `PATH` o necesitas especificar explícitamente la ruta, modifica `TextExtractor.py` añadiendo o editando la siguiente línea:
 
+    ```python
+    pytesseract.pytesseract.tesseract_cmd = r'<ruta_a_tesseract.exe>'
+    ```
 
-![image](https://github.com/RaulEfdz/-TextExtractor/assets/68834789/6b96fecc-ef38-4ccc-8194-a9a9313d1cd8)
+    Reemplaza `<ruta_a_tesseract.exe>` con la ruta correcta a Tesseract en tu sistema.
 
+## Ejecución del Script
 
- # EL CODIGO ESTA EN: TextExtractor.py
+- En tu terminal o línea de comandos, navega hasta el directorio del proyecto y ejecuta:
+
+    ```bash
+    python TextExtractor.py
+    ```
+
+- Sigue las instrucciones en pantalla para cargar y procesar el archivo deseado.
