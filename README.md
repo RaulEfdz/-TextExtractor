@@ -61,7 +61,7 @@ Para acceder al notebook y comenzar a trabajar en él, sigue estos pasos simples
 
 2. Descarga el archivo `.ipynb` del notebook a tu computadora local.
 
-3. Abre Google Colab en tu navegador web.
+3. Abre Google Colab en tu navegador web: https://colab.research.google.com/.
 
 4. En Google Colab, haz clic en "Archivo" en la barra de menú superior.
 
